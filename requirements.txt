@@ -1,0 +1,7 @@
+# 运行依赖
+numpy>=1.26
+opencv-python-headless>=4.8
+pillow>=10.0
+pypdf>=4.0
+customtkinter>=5.2
+tkinterdnd2>=0.4
