@@ -155,22 +155,6 @@ pyinstaller --noconfirm build.spec
 
 ---
 
-## 上传到 GitHub
-
-```bash
-cd idcard-a4-print
-git init
-git add .
-git commit -m "feat: 证件照片自动摆正 + 真实尺寸 A4 打印"
-git branch -M main
-git remote add origin https://github.com/<你的账号>/idcard-a4-print.git
-git push -u origin main
-```
-
-打包好的 EXE 不建议进仓库（80 MB 会拖慢 clone），在 GitHub 上新建 Release 把 `dist/身份证A4打印工具.exe` 传上去即可。
-
----
-
 ## 已知限制
 
 - 白卡放在白桌布、强反光、卡被手指遮挡过半：自动识别可能失败，用「四角」手动框一次即可。
