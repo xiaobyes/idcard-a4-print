@@ -186,7 +186,7 @@ pyinstaller --noconfirm build.spec
 | 开发者 | 一只小白 |
 | 仓库 | <https://github.com/xiaobyes/idcard-a4-print> |
 | 界面查看 | 右上角「关于」按钮 |
-
+|win7专用版|https://1853261401.share.123pan.cn/123pan/q6HYvd-WCPsv|
 ---
 
 ## 许可
